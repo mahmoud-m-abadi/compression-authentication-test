@@ -7,7 +7,7 @@ As you mentioned in the described txt file, I made config file for compression s
 For authentication service i used the Google authentication using Socialite package.
 There are test units using Mocking the Socialite provider and it returns user data in the end.
 
-Finally, please check the env.example file to see related keys in order to service's config.
+Finally, please check the env.example file to see related keys in order to service's config. And also I added my .env file on purpose to test system easier.
 
 Regards,
 Mahmoud Mohammadabadi.
