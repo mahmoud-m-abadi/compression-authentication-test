@@ -14,7 +14,7 @@ class CompressionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(CompressionService::class, function ($app) {
+        $this->app->singleton(CompressionService::class, function ($app) {
             return new CompressionService(
                 config('compression.fileType'),
                 config('compression.filePath'),
