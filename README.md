@@ -1,5 +1,5 @@
 
-## Code Challenge
+## Description
 
 There is 5 test units (3 items for Compression and 2 items for Authentication)
 As you mentioned in the described txt file, I made config file for compression service and you can set defined filename, filetype, file to compress and path file to save compressed file based on desired type.
